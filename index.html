@@ -130,7 +130,7 @@ iframe { width:100%; height:300px; border-radius:15px; border:0; }
   <!-- Map Page -->
   <div id="map" class="view">
     <h2 style="text-align:center; color:#c71585;">ទីតាំងពិធីមង្គលការ</h2>
-    <iframe id="mapFrame" src="https://www.google.com/maps?q=11.7951289,105.3758584&hl=km&z=16&output=embed" allowfullscreen="" loading="lazy"></iframe>
+    <iframe id="mapFrame" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3905.5730312067944!2d105.375636!3d11.795083999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDQ3JzQyLjMiTiAxMDXCsDIyJzMyLjMiRQ!5e0!3m2!1sen!2skh!4v1755935216345!5m2!1sen!2skh" allowfullscreen="" loading="lazy"></iframe>
     <div style="text-align:center; margin-top:10px;">
       <button class="btn" onclick="copyMapLink()">📋 Copy Link</button>
       <button class="btn" onclick="shareMapLink()">🔗 Share Link</button>
@@ -202,7 +202,7 @@ function showPage(pageId, btn){
 }
 
 // Map link
-const mapURL = "https://www.google.com/maps?q=11.7951289,105.3758584&hl=km&z=16";
+const mapURL = "https://maps.app.goo.gl/4zCB3UtRHt4m7sj69";
 function copyMapLink() { navigator.clipboard.writeText(mapURL).then(()=>alert("Map link copied!")); }
 function shareMapLink() {
   if(navigator.share){
