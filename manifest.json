@@ -6,7 +6,8 @@
   "background_color": "#ffe6f0",
   "theme_color": "#ff4da6",
   "icons": [
-    { "src": "icons/https://i.pinimg.com/736x/7a/9f/25/7a9f2515da4b1d4d7a70d7721a840aeb.jpg", "sizes": "192x192", "type": "image/png" },
-    { "src": "icons/https://i.pinimg.com/736x/7a/9f/25/7a9f2515da4b1d4d7a70d7721a840aeb.jpg", "sizes": "512x512", "type": "image/png" }
+    { "src": "https://cdn4.vectorstock.com/i/1000x1000/67/68/rc-letter-logo-design-with-heart-icons-love-vector-35796768.jpg", "sizes": "192x192", "type": "image/png" },
+    { "src": "https://cdn4.vectorstock.com/i/1000x1000/67/68/rc-letter-logo-design-with-heart-icons-love-vector-35796768.jpg", "sizes": "512x512", "type": "image/png" }
   ]
 }
+
